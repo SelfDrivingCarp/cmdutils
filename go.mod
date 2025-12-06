@@ -1,3 +1,3 @@
-module github.com/jasonmf/cmdutils
+module github.com/selfdrivingcarp/cmdutils
 
 go 1.18
