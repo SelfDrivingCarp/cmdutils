@@ -7,7 +7,7 @@ import (
 
 // F does Fprintf to stderr with the supplied args then calls os.Exit(1)
 func F(msg string, args ...any) {
-	fmt.Fprintf(os.Stderr, msg, args...)
+	fmt.Fprintf(os.Stderr, msg+"\n", args...)
 	os.Exit(1)
 }
 
